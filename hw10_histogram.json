@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "Number of Eruptions"},
+    "width": "container",
+    "height": 200,
+    "data": {"url": "https://raw.githubusercontent.com/githubuser0099/fit3179-homework10/main/eruptions.csv"},
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "type": "quantitative",
+        "bin": true,
+        "field": "vei",
+        "title": "VEI"
+      },
+      "y": {
+          "aggregate": "count",
+          "title": ""
+        },
+      "color": {"value": "#a50f15"}
+      }
+    }
+  
