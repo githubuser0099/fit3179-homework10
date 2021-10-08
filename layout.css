@@ -1,0 +1,33 @@
+/* This center aligns the heading, colours, and changes font size*/ 
+h1 {
+    text-align: center;
+    color: #527298;
+    font-size: 40px;
+}
+
+.pure-u-1 {
+    width: 100vw;
+}
+
+/*This creates white space between the first and second row.*/ 
+.pure-u-2-3 {
+    margin-top: 50px;
+    height: 30vw;
+}
+.pure-u-1-3 {
+    margin-top: 50px;
+    height: 30vw;
+}
+
+/* This puts in a left and right margin*/ 
+#text_div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#dot_map {
+    width: 100vw;
+}
+
+
+
